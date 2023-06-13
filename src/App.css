@@ -1,6 +1,7 @@
 .appWrapper {
     display: grid;
-
+    width: 1200px;
+    margin: 0 auto;
     grid-template-areas:
 'h h'
 'n c';
@@ -12,9 +13,11 @@
     grid-area: h;
     background-color: green;
 }
+
 .header img {
-    width: 100px;
+    width: 70px;
 }
+
 .nav {
     grid-area: n;
     background-color: coral;
